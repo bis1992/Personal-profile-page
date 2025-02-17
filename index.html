@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0:">
+    <title>Getting to Know me</title>
+<style>
+body{background-color: goldenrod;
+    font-family: Arial, sans-serif;}
+.para-div{
+    max-width: 1000px;
+    height: 100px; 
+    padding: 50px; 
+    border-radius: 10px;
+}
+.parent-div{
+    display:flex;
+    gap: 20px
+
+}
+h1{text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif ;}
+h2{font-size: medium;}
+
+
+img {
+max-width: 300px;
+height: 200px;
+display:block;
+margin: 20 auto;
+border-radius: 50%;
+}
+p {
+font-size: 16px;
+text-align: left;
+padding: 10px;
+        }
+table{
+width: 60%;
+border-collapse: collapse;
+margin: 20px 0;
+border: 2; 
+}
+thead{background-color: brown; color:beige}
+tbody{background-color:darkkhaki; color: beige}
+
+    </style>
+</head>
+
+
+<body>
+
+<h1 style="text-align: center;">Fatimah Abdulmojeed</h1>
+<div class="parent-div">
+    <div class="image-div">
+        <img src="/images/images.png" alt="my profile picture">
+        
+    </div>
+    <div class="para-div" style= "background-color: chocolate; color: white;"
+    >
+        <p> My name is Fatimah, a health researcher based in Kaduna state, Nigeria. A graduate of Human anatomy, interested in being a lecturer to impact the knowledge of basis of medicine. I recently developed an interest in the tech world and i have decided to combine IT with my field to be able to achieve more positive results in my field </p>
+    
+    </div>
+    
+</div>
+
+<div class="link-div">
+    <h2>Links</h2>
+    
+<ul>
+<li>
+    <a href="https://www.google.com" target="_blank">
+    Click to go to Google
+</a>
+</li>
+<li>
+    <a href="about.html">
+     More Info about me
+    </a>
+</li>
+    <li>
+<a href="#aboutMeSection">
+    Go to About Me Section
+</a>
+</li>
+</ul>
+
+</div>
+
+<h2 id="aboutMeSection">About Me</h2>
+<p>I love exploring and learning new things. I enjoy reading, and traveling.</p>
+
+
+ <h2>My Favorite Movies</h2>
+<table border=2 cellspacing="0" cellpadding="5">
+<thead>
+    <tr>
+<th>Movie</th>
+<th>Why I Like It</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+    <td>The wedding party</td>
+    <td>It's a stress relieving movie.</td>
+    </tr>
+    <tr>
+    <td>The Matrix</td>
+    <td>A classic that questions the reality of our existence.</td>
+    </tr>
+    <tr>
+    <td>Grey's Anatomy</td>
+    <td>A medical drama television series.</td>
+    </tr>        
+</tbody>
+        </table>
+
+    <div class="form-container">
+    <h2>Contact Me</h2>
+    
+<form action="/submit-form" method="POST">
+    <div>
+        <label for="first-name"> First Name:</label>
+        <input type="text" placeholder="Enter your first name" id="first-name" >
+        <label for="last-name">Last Name:</label>
+        <input type="text" placeholder="Enter your last name" id="last-name" >
+
+    </div>
+                
+<div>
+    <label for="email">Email:</label>
+    <input type="email" placeholder="Enter your Email" id="email" >
+</div>
+                
+<div>
+    <label for="message">Message:</label> 
+<textarea name="comments" rows="4" cols="50" placeholder="Leave your messages"></textarea>
+</div>
+                
+<button type="submit">Submit</button>
+</div>
+            </form>
+       
+
+
+
+
+
+</body>
+</html>
